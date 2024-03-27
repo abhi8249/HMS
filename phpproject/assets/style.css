@@ -1,0 +1,52 @@
+.Loginform input[type=text],input[type=password],input[type=email] {
+    border: none;
+    outline: none;
+    border-bottom: 0.2em solid #06060685;
+ 
+    padding: 0.4em;
+    color: #000000;
+    border-radius: 16px;
+}
+
+.active{
+    background: linear-gradient(273deg, #ff0099, #ff0000fa);
+    color: white;
+    border-radius: 5px;
+}
+.navbarsec{
+    background: #d9d9d9;
+    padding: 11px;
+    box-shadow: 1px 1px 2px 2px;
+}
+.cardbox .item{
+    flex: 1 0 0%;
+    background: #9d9d9d;
+    margin-right: 12px;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 3px;
+    font-size: x-large;
+}
+.herocontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto;
+    background: #4f8cab;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px;
+}
+.rightsideherobtn{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+body{
+    background-color: #f0f0f0d8;
+}
+svg{
+    width: 7%;
+}
